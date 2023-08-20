@@ -35,7 +35,7 @@ with tab1:
     
     with open(uploaded_file_1.name,"wb") as f:
      f.write(uploaded_file_1.getbuffer())
-    st.image(uploaded_file_1.name,width=150)
+    st.image(uploaded_file_1.name,width=300)
     pipeline = keras_ocr.pipeline.Pipeline()
     images = [
     keras_ocr.tools.read(uploaded_file_1.name) ]
@@ -64,7 +64,7 @@ with tab2:
      
      with open(uploaded_file_2.name,"wb") as f:
       f.write(uploaded_file_2.getbuffer())
-     st.image(uploaded_file_2.name,width=150)
+     st.image(uploaded_file_2.name,width=300)
    st.header("Enter the searched word")
    given_text = st.text_input('tap your word here')
    
