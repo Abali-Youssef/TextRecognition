@@ -25,7 +25,7 @@ with tab0:
 "⚙️ Advanced OCR Technology:\n TextSearch Vision leverages state-of-the-art Optical Character Recognition (OCR) algorithms to ensure exceptional accuracy in text extraction, even from complex images and diverse fonts.\n")
    st.image("ocr.jpeg")
 with tab1:
-   st.text("upload your image by selecting it and you will get all the existint text within it in the text area bellow")
+   st.text("upload your image by selecting it and you will get all the existing text within it in the text area bellow")
    st.header("Select your image")
    uploaded_file_1 = st.file_uploader("Choose a file",accept_multiple_files=False)
    
