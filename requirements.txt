@@ -1,0 +1,4 @@
+keras-ocr
+tensorflow
+matplotlib
+streamlit
